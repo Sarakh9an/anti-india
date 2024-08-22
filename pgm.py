@@ -12,16 +12,8 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 #secret_key= "030d6822-b0ed-40e0-994e-6b6489a413fd"
 
 # Initialization block
-keywords_list = ["India", "USA"]
-#, "China", "Bagladesh", "UK", "Lanka", "AFGHANISTAN", "MALDIVES", "MAURITIUS", "TIBET", "IRAN", "ISIS", "AL-QAEDA", "AL-SHABAAB",
- #                 "BOKO", "HARAM", "MODI", "SECURITY", "SIKH", "MILITANT", "CANADA", "AUSTRALIA", "CYBER", "FICN",
-  #                 "LAUNDERING", "IB", "R&AW", "South China Sea", "Russia Ukraine", "Indo-Pacific", "BRI", "Nepal", "Taiwan", "Buddhism"]
-journal_list = ["washingtonpost.com"]
-#, "nytimes.com", "thetimes.co.uk", "ft.com"]
-#journal_list = ["deccanherald"]
-#["navbharattimes.indiatimes"],"INDIAN EXPRESS", "The Hindu", "Times of India", "sundayguardianlive", "sundaystandard", "hindustantimes", "dailypioneer", "thestatesman", "tribuneindia", "business-standard",
-#         "jagran", "jansatta", "thestatesman", "deccanherald", "asianage", "economictimes.indiatime","The Hindu",
- #            "livehindustan", "navbharattimes.indiatimes", "punjabkesari"]
+keywords_list = ["Human Rights", "Illegal occupied","Anti-India", "Hindu", "Supremacy", "Nationalist", "India", "USA", "China", "Bangladesh", "UK", "Lanka", "Afghanistan", "Militant", "Khalistan", "terror"]
+journal_list = ["washingtonpost.com""nytimes.com", "thetimes.co.uk", "ft.com"]
 language_list = ["eng", "hin"]
 topics = ["Geo Politics", "Military", "Development", "Health", "Business"]
 ignore_topic_list = ['hockey', 'cricket', "Bollywood", "Hollywood", "Box office", "Asia Cup", "Games", "sport", "Fashion"]
