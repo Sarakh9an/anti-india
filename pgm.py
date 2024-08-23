@@ -44,7 +44,7 @@ def retrieve_articles(keyword, journal):
     try:
         er = EventRegistry(apiKey=st.secrets["secret_key"], allowUseOfArchive=False)
         q = QueryArticlesIter(
-            keywords=QueryItems.OR([keyword]),
+            keywords=QueryItems.AND([keyword]),
             sourceUri=er.getSourceUri(journal),
             lang=QueryItems.OR(language_list),
             ignoreKeywords=QueryItems.OR(ignore_topic_list),
