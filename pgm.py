@@ -12,8 +12,8 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 #secret_key= "030d6822-b0ed-40e0-994e-6b6489a413fd"
 
 # Initialization block
-keywords_list = ["Human Rights", "Illegal occupied","Anti-India", "Hindu", "Supremacy", "Nationalist", "India", "USA", "China", "Bangladesh", "UK", "Lanka", "Afghanistan", "Militant", "Khalistan", "terror"]
-journal_list = ["washingtonpost.com""nytimes.com", "thetimes.co.uk", "ft.com"]
+keywords_list = ["Human Rights", "Illegal occupied", "Anti-India", "Hindu", "Supremacy", "Nationalist", "India", "USA", "China", "Bangladesh", "UK", "Lanka", "Afghanistan", "Militant", "Khalistan", "terror"]
+journal_list = ["washingtonpost.com", "nytimes.com", "thetimes.co.uk", "ft.com"]
 language_list = ["eng", "hin"]
 topics = ["Geo Politics", "Military", "Development", "Health", "Business"]
 ignore_topic_list = ['hockey', 'cricket', "Bollywood", "Hollywood", "Box office", "Asia Cup", "Games", "sport", "Fashion"]
