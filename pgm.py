@@ -18,7 +18,7 @@ language_list = ["eng", "hin"]
 topics = ["Geo Politics", "Military", "Development", "Health", "Business"]
 ignore_topic_list = ['hockey', 'cricket', "Bollywood", "Hollywood", "Box office", "Asia Cup", "Games", "sport", "Fashion"]
 max_items_per_journal = 5  # Maximum 5 articles per newspaper
-max_total_articles = 35  # Maximum total articles to retrieve
+max_total_articles = 10  # Maximum total articles to retrieve
 days_range = 1
 date_end = datetime.now().strftime('%Y-%m-%d')
 date_start = (datetime.now() - timedelta(days=days_range)).strftime('%Y-%m-%d')
